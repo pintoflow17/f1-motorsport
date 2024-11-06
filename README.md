@@ -22,10 +22,6 @@ The API requires the headers listed below:
 Make sure to replace `YOUR_API_KEY` with your API key. You can register one [here](https://rapidapi.com/belchiorarkad-FqvHs2EDOtP/api/f1-motorsport-data/pricing).
 Some frameworks automatically add extra headers, you have to make sure to remove them in order to get a response from the API.
 
-## Caching
-
-- Cached data is stored using a unique key derived from the athlete ID.
-- Data is cached for 1 hour (in seconds) to reduce API requests and improve performance.
 
 ## Endpoints
 
